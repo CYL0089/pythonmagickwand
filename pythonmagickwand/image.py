@@ -198,7 +198,7 @@ class Image(object):
     def resample(self, resolution, filter=None, blur=0):
         ''' Resample the image with the given filter and applying some blur.
 
-            size - A tuple containing the resolution of the resampled image.
+            resolution - A tuple containing the resolution of the resampled image.
             filter - None, or one of BESSEL_FILTER, BLACKMAN_FILTER,
                      BOX_FILTER, CATROM_FILTER, CUBIC_FILTER, GAUSSIAN_FILTER,
                      HANNING_FILTER, HERMITE_FILTER, LANCZOS_FILTER,
